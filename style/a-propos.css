@@ -48,3 +48,22 @@ h1,
 h2 {
   text-align: center;
 }
+
+@media screen {
+  table {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 996px;){
+  .a-propos-main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+}

@@ -80,3 +80,72 @@ input[type='submit'] {
   margin: auto;
   margin-top: 30px;
 }
+
+@media  screen  {
+  
+  .accueil-introduction{
+    display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  align-items: flex-start;
+  margin: auto;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 996px){
+  .accueil-introduction {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.accueil-photos {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accueil-introduction div {
+  padding-right: 20px;
+  text-align: center;
+}
+
+.accueil-introduction img {
+  order: 1;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+section {
+  padding: 50px 20px 50px 20px;
+}
+
+.section-contact {
+  padding: 50px 20px;
+}
+
+.form-nom-email {
+  flex-direction: column;
+  gap: 0;
+}
+ 
+}
+
